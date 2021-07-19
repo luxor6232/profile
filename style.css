@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+body{
+  background-color: gainsboro;
+  font-size: 1.1em;
+  line-height: 1em;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+h1{
+  font-size: 1.5em;
+}
+button{
+  text-decoration: cadetblue;
+  color: darkcyan;
+}
+a:hover{
+  color: darkcyan;
+}
+.card{
+    background-color: gainsboro;
+    padding: 100px 10%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 40px 0px;
+    text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn1 {
+  background-color: cadetblue;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
+
